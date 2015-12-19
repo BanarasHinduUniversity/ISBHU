@@ -44,4 +44,8 @@ Use the source file IS_BHU_PPT.tex and directory "Logo" where BHU University log
 >     $ xelatex  IS_BHU_PPT.tex
 >     $ pdflatex IS_BHU_PPT.tex
 
+<<<<<<< HEAD
 Output file will be created in the same directory of *.tex file as IS_BHU_PPT.pdf
+=======
+Output file will be created in the same directory of *.tex file as IS_BHU_PPT.pdf
+>>>>>>> a3a11738a7c1770fd6df046fec3122e829a3af6d
