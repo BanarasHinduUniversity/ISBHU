@@ -39,11 +39,6 @@ The Institute of Science - Banaras Hindu University, Varanasi unofficial power p
 ----------------------------------------------------------------------------------------------
 
 >**How to Use:**
-Use the source file #beamertheme/BHUpt/Banaras.sty and sample_BHU_ppt.tex
-
-----------------------------------------------------------------------------------------------
-
->**How to Use:**
 Use the source file sample_BHU_ppt.tex and directory "Logo" where BHU University logo will be present in jpg or png format. Windows (LaTeX) OR UNIX/Linux (Texlive)
 
 >     $ xelatex  sample_BHU_ppt.tex
