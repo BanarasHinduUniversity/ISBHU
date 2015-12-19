@@ -39,8 +39,9 @@ The Institute of Science - Banaras Hindu University, Varanasi unofficial power p
 ----------------------------------------------------------------------------------------------
 
 >**How to Use:**
-Use the source file sample_BHU_ppt.tex and directory "Logo" where BHU University logo will be present in jpg or png format. Windows (LaTeX) OR UNIX/Linux (Texlive)
+Use the source file IS_BHU_PPT.tex and directory "Logo" where BHU University logo will be present in jpg or png format. Windows (LaTeX) OR UNIX/Linux (Texlive)
 
->     $ xelatex  sample_BHU_ppt.tex
->     $ pdflatex sample_BHU_ppt.tex
-Output file will be created in the same directory of *tex file at sample_BHU_ppt.pdf
+>     $ xelatex  IS_BHU_PPT.tex
+>     $ pdflatex IS_BHU_PPT.tex
+
+Output file will be created in the same directory of *.tex file as IS_BHU_PPT.pdf
