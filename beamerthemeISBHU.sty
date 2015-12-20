@@ -1,6 +1,6 @@
 % ///////////////////////////////////////////////////////////////
 %
-% The provided presentation template `IIT-BHU' or `BHUpt' or 'Banaras' is based on the
+% The provided presentation template `IIT-BHU' or `ISBHUpt' or 'Banaras' is based on the
 % templates provided with the `beamer' package. The Company
 % logo and the background image were taken from the homepage
 % of BHU. As far as I understand the images are provided
@@ -40,6 +40,9 @@
 % OTHER DEALINGS IN THE TEMPLATE.
 %
 % /////////////////////////////////////////////////////////////////
+
+\usepackage{amssymb}
+\newcommand{\qedwhite}{\hfill \ensuremath{\Box}}
 
 \definecolor{beamer@icdarkblue}{RGB}{0,51,102}
 \definecolor{beamer@icmiddleblue}{RGB}{0,82,150}
@@ -87,7 +90,7 @@
 %\begin{beamercolorbox}[leftskip=0.2cm,ht=1.1cm,dp=0.5cm,wd=\textwidth]{institute/logo in head/foot} %ht=1.1cm
 \begin{beamercolorbox}[leftskip=0.2cm,ht=1.0cm,dp=0.5cm,wd=\textwidth]{institute in head/foot} %ht=1.1cm
 {
- \includegraphics[width=0.25\textwidth]{Logo/BHULogotype300dpi-CMYK.jpg}
+ \includegraphics[width=0.22\linewidth]{Logo/BHULogotype300dpi-CMYK.jpg}
 % \includegraphics[width=0.15\textwidth]{Logo/BHULogo-Capital_of_Knowledge-RGB.jpg}
 % \includegraphics[width=0.33\textwidth]{Logo/BHULogoforLetterPad-300dpi-CMYK}
 }
@@ -95,7 +98,7 @@
 %{
 % \includegraphics[width=1.1in]{Logo/BHULogotype300dpi-CMYK.jpg}
 % \includegraphics[width=2.0in]{Logo/BHULogoforLetterPad-300dpi-CMYK}
-% \includegraphics[width=0.5in]{Logo/BHULogo-Capital_of_Knowledge-RGB.jpg}
+% \includegraphics[width=0.5in]{Lhttps://github.com/BanarasHinduUniversity/ISBHU/blob/master/IS_BHU_PPT.pdfogo/BHULogo-Capital_of_Knowledge-RGB.jpg}
 %} % \hfill {\includegraphics[height=0.5cm]{BHU_capital_of_knowledge.png}}
 \end{beamercolorbox}%
 }%end of defbeamertemplate*
@@ -103,18 +106,18 @@
 \defbeamertemplate*{footline}{BHU Varanasi}
 {%
  %\begin{beamercolorbox}[ht=.55cm,dp=0.4cm,wd=\textwidth,leftskip=.3cm]{author in head/foot}%
- \begin{beamercolorbox}[ht=0.30cm,dp=0.2cm,wd=\textwidth,leftskip=0.3cm]{author in head/foot}%
+ \begin{beamercolorbox}[ht=0.25cm,dp=0.2cm,wd=\textwidth,leftskip=0.3cm]{author in head/foot}%
 	\begin{minipage}[c]{9.5cm}%
 %   {\includegraphics[height=1.0cm]{BHUletterhead.jpg}}
 %	\usebeamerfont{author in head/foot}
 %	\insertshortauthor
-\insertshorttitle{\bf{$\ast$ BHU $\ast$ an institution of national importance established by an act of parliament $\ast$}
+\insertshorttitle{\tiny \sc{$\square$\ INSTITUTE\ OF\ SCIENCE\ $\square$ \tiny{\it an institution of national importance }$\square$ }
 $<$\insertframenumber/\inserttotalframenumber$>$}
  %\insertshorttitle{\bf{$\maltese$ The Banaras Hindu University $\mid$ Varanasi $\mid$ capital of knowledge $\maltese$} \insertframenumber/\inserttotalframenumber $\ast$}
 	\end{minipage}\hfill%
-	\begin{minipage}{3.5cm} %\hfill
+	\begin{minipage}{3.0cm} %\hfill
     \begin{beamercolorbox}[leftskip=0.cm,ht=1.0cm,dp=.5cm,wd=3.0cm]{institute in head/foot} %ht=1.1cm
-    \center{\includegraphics[width=1.1in]{Logo/BHUGateLogoHeaderBlue.png}}%{BHULogo.jpg}} %height=0.9cm replace with BHU_capital_of_knowledge.pdf or bhu.png
+    \center{\includegraphics[width=0.90in]{Logo/BHUGateLogoHeaderBlue.png}}%{BHULogo.jpg}} %height=0.9cm replace with BHU_capital_of_knowledge.pdf or bhu.png
     %\center{\includegraphics[width=0.6in]{BHULogo.jpg}} % \hfill {\includegraphics[height=0.5cm]{BHU_capital_of_knowledge.png}}
 
      \end{beamercolorbox}

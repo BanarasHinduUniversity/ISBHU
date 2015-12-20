@@ -1,6 +1,6 @@
 \documentclass[]{beamer} %[t]
-%\usetheme{Banaras}%IITBHU%Banaras%
 \usetheme{ISBHU}%ISBHU%Banaras%BHUpt
+%\usetheme{Banaras}%IITBHU%Banaras%
 \usepackage{amsmath}
 \usepackage{color}
 \usepackage{xcolor}
@@ -23,8 +23,8 @@
   \begin{frame}<beamer>
   \setcounter{section}{\I}
   \frametitle{Outline}
-%  \tableofcontents[currentsection,sectionstyle=show/show, subsectionstyle=show/show/hide]
-    \tableofcontents[currentsection]
+  \tableofcontents[currentsection,sectionstyle=show/show, subsectionstyle=show/show/hide]
+  %  \tableofcontents[currentsection]
   \end{frame}
 }
 \setcounter{section}{0}
@@ -42,26 +42,29 @@
 %    Hello!
 %\end{frame}
 %--------------------- Full Screen PDF O/P ---------------------------
-%\hypersetup{pdfpagemode={FullScreen}}
+
+\hypersetup{pdfpagemode={FullScreen}}
 
 \usefonttheme{serif}%{serif}%replacement for deprecated [serif] documentclass option
 \usepackage{fontspec}
 \usepackage{mathpazo}
+\usepackage{amssymb}
 %\usepackage{DejaVuSansMono}
 %    \setmonofont[SmallCapsFont={Latin Modern Mono Caps}]{Latin Modern Mono Light}
 %    \setsansfont{Linux Biolinum O} %AGaramondPro-Regular, AGaramondPro-Semibold
 %\setmainfont[ExternalLocation="C:/kumarh/LaTeX/CoverLetters/Fonts/"]{Adobe-Garamond-Pro-Regular}%{AppleGaramond.ttf}%used Bold, since that's what was bundled w/ Mac OS X
 
- \usepackage[]{fontspec} % remove quiet option to check for errors
+% \usepackage[]{fontspec} % remove quiet option to check for errors
   \setromanfont[Ligatures={Common,TeX}]{Linux  Libertine O}
 
 %%--------------------------- front opening slide content ------------------------------
-\author[]{Hemant K. Mishra \\ \tiny{kumar.hemant.iitg@gmail.com}}%{Kumar Hemant \\{\tiny khemanta@alumni.bhu.ac.in}}
+\author[]{\small{Hemant K. Mishra} \\ \tiny{Institute of Science} \\ \tiny{Banaras Hindu University} }%{Kumar Hemant \\{\tiny khemanta@alumni.bhu.ac.in}}
 \title[]{The Banaras Hindu University, Varanasi \\ presentation template for \LaTeXe \\ (beamertheme/Banaras/BHUpt v1.0)}
-%\title[\bf $\ast$ The Banaras Hindu University, Varanasi $\ast$ An Institution of National Importance established by an Act of Parliament $\ast$]{The Banaras Hindu University Varanasi \\ presentation template for \LaTeXe \\ (beamerthemeBHUpt v1.0)}
-\date{January 1, 2013} %\today
+%\title[\bf $\ast$ The Banaras Hindu University, Varanasi $\ast$ INSTITUTE OF SCIENCE / BHU $\ast$]{The Banaras Hindu University Varanasi \\ presentation template for \LaTeXe \\ (beamerthemeBHUpt v1.0)}
+\date{December 25, 2015} %\today
 %%--------------------------------------------------------------------------------------
 %\setbeamertemplate{background}{\includegraphics[width=0.7\paperwidth, height=0.3\paperheight]{Logo/BHU_Cover_Page.jpg}}
+
 
 
 \begin{document}
